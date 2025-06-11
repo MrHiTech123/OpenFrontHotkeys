@@ -5,7 +5,7 @@ The keybindings are as follows:
 | Action | Key |
 | ------ | --- |
 | Naval Invasion | N |
-| Alliance/Betray | B |
+| Alliance ("Buddies")/Betray | B |
 | Info | I |
 | Launch Atom Bomb | A |
 | Launch MIRV | V |
