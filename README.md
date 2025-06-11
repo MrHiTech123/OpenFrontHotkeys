@@ -1,5 +1,7 @@
 A pyautogui script that allows you to use keyboard shortcuts while playing [openfront.io](https://openfront.io) rather than clicking through context menus.
 
+MAY NOT WORK ON SCREEN SIZES OTHER THAN MY OWN
+
 The keybindings are as follows:
 
 | Action | Key |
