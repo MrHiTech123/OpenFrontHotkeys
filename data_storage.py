@@ -17,7 +17,7 @@ class BuildValue(NamedTuple):
         original_coords = pyautogui.position()
         pyautogui.moveTo(self.mouse_x, self.mouse_y)
         pyautogui.leftClick()
-        sleep(0.02)
+        sleep(.1)
         pyautogui.moveTo(*original_coords)
         
 
@@ -83,4 +83,4 @@ class Action(Enum):
     
     @staticmethod
     def __generate_key_to_build__():
-        Action.__key_to_action__ = {x.value.key: x.value for x in Action}
+        Action.__key_to_action__ = {x.value.key: x.value for x in Action if x.value.key is not None}
