@@ -14,8 +14,10 @@ class BuildValue(NamedTuple):
     def do(self):
         Action.BUILD.value.do()
         
+        sleep(.1)
         original_coords = pyautogui.position()
         pyautogui.moveTo(self.mouse_x, self.mouse_y)
+        sleep(.1)
         pyautogui.leftClick()
         sleep(.1)
         pyautogui.moveTo(*original_coords)
