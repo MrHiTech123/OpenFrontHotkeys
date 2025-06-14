@@ -1,9 +1,4 @@
 import threading
-from enum import Enum
-from typing import NamedTuple
-import pyautogui
-import pynput.mouse as mouse
-import pynput.keyboard as keyboard
 import pynput.keyboard
 
 from data_storage import *
