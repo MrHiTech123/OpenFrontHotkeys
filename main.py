@@ -25,6 +25,9 @@ def on_press(key: "pynput.keyboard._win32.KeyCode"):
     
     char = get_char(key)
     
+    if char == 'q':
+        raise SystemExit(0)
+    
     build = Build.from_key(char)
     if build is not None:
         build.do()
