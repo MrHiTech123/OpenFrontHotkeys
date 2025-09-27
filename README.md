@@ -1,4 +1,4 @@
-UPDATE: With the new OpenFront update, this program is obsolete and will not be updated. 
+UPDATE: With the new OpenFront UI update, this program is obsolete and will not be updated. 
 
 ---
 
